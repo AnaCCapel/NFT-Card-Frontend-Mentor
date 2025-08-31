@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-264DE4?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Flexbox-AA77FF?style=for-the-badge&logo=css3&logoColor=white" /> </p>
+ <img src="https://img.shields.io/badge/HTML5-E44D26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-264DE4?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Flexbox-AA77FF?style=for-the-badge&logo=css3&logoColor=white" />
 
 ## Este projeto é uma solução para o desafio **[Frontend Mentor](https://www.frontendmentor.io/profile/AnaCCapel)**.  
 - Este projeto recria um **card de NFT** com efeitos de hover.
