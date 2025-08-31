@@ -1,0 +1,154 @@
+:root {
+    --font: "Outfit", sans-serif;
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --first-color-font: hsl(215, 51%, 70%);
+    --second-color-font: hsl(178, 100%, 50%);
+    --white: hsl(0, 0%, 100%)
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--main-bg);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: var(--card-bg);
+}
+
+.link-image {
+    display: flex;
+    position: relative;
+}
+
+.link-image .image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.link-image::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+    background-color: var(--second-color-font);
+}
+
+.link-image::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+    background: url(./src/icon-view.svg) no-repeat center;
+}
+
+.link-image:hover::before {
+    opacity: 0.4;
+}
+
+.link-image:hover::after {
+    opacity: 1;
+}
+
+
+.title-link .title {
+    color: var(--white);
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.title-link .title:hover {
+    color: var(--second-color-font);
+}
+
+.about {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 25px;
+    color: var(--first-color-font);
+}
+
+.info {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .price {
+    color: var(--second-color-font);
+    display: flex;
+}
+
+.info .days-left {
+    color: var(--first-color-font);
+    display: flex;
+}
+
+.creator {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--first-color-font);
+}
+
+.creator .avatar {
+    max-width: 35px;
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+}
+
+.creator .text {
+    color: var(--first-color-font);
+
+}
+
+.creator .text .name {
+    color: var(--white);
+}
+
+.info .price::before {
+    content: '';
+    width: 11px;
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+    background: url(./src/icon-ethereum.svg) no-repeat center;
+}
+
+.info .days-left::before {
+    content: '';
+    width: 15px;
+    height: 20px;
+    margin-right: 8px;
+    display: inline-block;
+    background: url(./src/icon-clock.svg) no-repeat center;
+}
+
+.footer {
+    font-size: 11px;
+    text-align: center;
+    font-family: var(--font);
+    color: var(--first-color-font);
+}
+
+.footer a {
+    color: #AA77FF;
+}
