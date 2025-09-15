@@ -7,7 +7,7 @@
 
 <img width="577" height="433" alt="nft" src="https://github.com/user-attachments/assets/265ff164-1332-4afd-a02f-3b8f08140135" />
 
-## 🎯 Objetivo::
+## 🎯 Objetivo:
 - Usar **HTML5** para criar uma estrutura semântica do projeto; 
 - Usar **CSS3** para estilizar com Flexbox, variáveis e hover effects.
 
